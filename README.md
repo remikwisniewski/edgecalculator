@@ -1,0 +1,2 @@
+# edgecalculator
+stock market calculator
