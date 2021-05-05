@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 /* GOOGLE FONT URL */
 
+
 /* background img */
 html{
   background-image: url('./Images/background.png');
@@ -34,6 +35,73 @@ volatility stop loss long CSS
   margin-top: 100px;
   font-family: 'Playfair Display', serif;
 }
+
+
+.inputForm{
+  position: relative;
+  display: inline-block;
+  max-width: 700px;
+  min-width: 200px;
+  box-sizing: border-box;
+  padding: 30px 25px;
+  background-color: white;
+  border-radius: 40px;
+  margin: 40px 0;
+  left: 30%;
+  transform: translate( -50% , 0 );
+}
+
+
+/*------------------------------*/
+/*
+FIX .BUTTONINPUTFORM
+*/
+.buttonInputForm{
+  margin-top: 35px;
+  background-color: white;
+  border: 1px solid $red;
+  line-height: 0;
+  font-size: 17px;
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 20px 15px;
+  border-radius: 60px;
+  color: $red;
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+
+.buttonInputForm hover{
+  color: white;
+  background-color: green;
+}
+
+.buttonInputForm focus{
+  color: white;
+  background-color: green;
+}
+
+/*------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
