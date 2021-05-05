@@ -22,6 +22,19 @@ html{
   font-family: 'Playfair Display', serif;
 }
 
+/*
+volatility stop loss long CSS
+*/
+
+.VSL h1{
+  font-size: 40px;
+  text-align: center;
+  color: rgb(25, 186, 10);
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  margin-top: 100px;
+  font-family: 'Playfair Display', serif;
+}
+
 
 /* TODO: webpage sizing */
 @media(max-width:1190px){
