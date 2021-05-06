@@ -9,11 +9,13 @@ function VolatilityLong(){
                 <h1>
                     Volatility Stop Loss Long
                 </h1>
-                
-                
             </div>
-            <UserInputVSL/>
-            <ResultLVSL/>
+            
+            <div className = 'container'>
+                <UserInputVSL/>
+                <ResultLVSL/>
+            </div>
+
         </div>
     )
 }

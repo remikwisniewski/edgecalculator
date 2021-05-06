@@ -29,7 +29,8 @@ volatility stop loss long CSS
 
 .VSL h1{
   font-size: 40px;
-  text-align: center;
+  position: relative;
+  left: 18%;
   color: rgb(25, 186, 10);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   margin-top: 100px;
@@ -96,12 +97,52 @@ label {
   color: white;
 }
 
+/* 
+container for aligning components side by side
+
+FIX:
+- sizing
+- 
+*/
+
+.container{
+  display:flex;
+  flex-direction: row;
+  position: absolute;
+  left: 20%;
+}
+
+/*
+result form css
+*/
+
+.resultForm{
+  position: relative;
+  display: inline-block;
+  max-width: 700px;
+  min-width: 200px;
+  height: 500px;
+  box-sizing: border-box;
+  padding: 30px 25px;
+  background: rgba(38, 255, 0, 0.5);
+
+  border-radius: 40px;
+  margin: 40px 0;
+  left: 30%;
+  transform: translate( -50% , 0 );
+}
+
+.resultFormText{
+  background:rgb(2, 88, 8);
+  box-sizing: border-box;
+}
 
 
 
 /*------------------------------*/
 /*
 button in user input text
+
 FIX:
 - add hover + focus
 */
