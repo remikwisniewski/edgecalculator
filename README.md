@@ -6,6 +6,12 @@ TODO:
 1) make the visual of the page in react
 2) figure out the backend 
 
+
+NOW:
+- navbar.jsx
+- volatilityshort.jsx
+
+BUGS/FIXES:
 - add underline / seperatation between QEdge and first component
 - create manifest.json 
 - add reset function to input component (input type='reset')
