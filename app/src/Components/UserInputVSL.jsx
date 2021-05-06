@@ -4,23 +4,27 @@ function UserInput(){
     return (
         <div>
             <form class = "inputForm">
-                <div class = "textBox">
+                <div class = "textBox"> 
                     <input type="text" required/>
+                    
                     <label> Actual Price </label>
                 </div>
                 <div class = "textBox">
                     <input type="text" required/>
+                    
                     <label> Low Price </label> 
                 </div>
                 <div class = "textBox">
                     <input type="text" required/>
+                    
                     <label> Average True Range </label>
                 </div>  
                 <div class = "textBox">
                     <input type="text" required/>
-                    <label> Max Stop Loss($) </label>
+                    
+                    <label> Max Stop Loss ($) </label>
                 </div>        
-                <button class = "buttonInputForm">Calculate</button>
+                <button class = "buttonInputForm buttonH">Calculate</button>
             </form>
         </div>
     )

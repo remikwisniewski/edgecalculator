@@ -37,6 +37,9 @@ volatility stop loss long CSS
 }
 
 
+/*
+user input background
+*/
 .inputForm{
   position: relative;
   display: inline-block;
@@ -44,65 +47,85 @@ volatility stop loss long CSS
   min-width: 200px;
   box-sizing: border-box;
   padding: 30px 25px;
-  background-color: white;
+  background: rgba(0, 96, 255, 0.5);
+
   border-radius: 40px;
   margin: 40px 0;
   left: 30%;
   transform: translate( -50% , 0 );
 }
 
+/*
+text boxs in user input
+*/
+
+.textBox {
+  position: relative;
+  padding: 10px 0;
+}
+
+input {
+  appearance: none;
+  background-color: none;
+  border: 1px solid rgb(2, 88, 8);
+  line-height: 0;
+  font-size: 25px;
+  width: 200px;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  border-radius: 60px;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  z-index: 1;
+}
+input:focus { 
+  outline: none;
+  background: transparent;
+  color: rgb(255, 255, 255);
+  margin-top: 20px;
+
+}
+
+label {
+  margin-left: 20%;
+  font-family: 'Roboto';
+  font-size: 17px;
+  color: white;
+}
+
+
+
 
 /*------------------------------*/
 /*
-FIX .BUTTONINPUTFORM
+button in user input text
+FIX:
+- add hover + focus
 */
 .buttonInputForm{
   margin-top: 35px;
   background-color: white;
   border: 1px solid $red;
+  width: 200px;
   line-height: 0;
-  font-size: 17px;
+  font-size: 25px;
+  font-family: 'Roboto';
   display: inline-block;
   box-sizing: border-box;
   padding: 20px 15px;
   border-radius: 60px;
-  color: $red;
+  color: green;
   font-weight: 100;
   letter-spacing: 0.01em;
   position: relative;
   z-index: 1;
 }
 
-.buttonInputForm hover{
-  color: white;
-  background-color: green;
-}
-
-.buttonInputForm focus{
-  color: white;
-  background-color: green;
-}
 
 /*------------------------------*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
