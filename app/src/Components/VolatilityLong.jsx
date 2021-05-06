@@ -21,8 +21,3 @@ function VolatilityLong(){
 }
 
 export default VolatilityLong;
-
-{/* 
-    we will have 2 components, the input, and the output 
-
-*/} 

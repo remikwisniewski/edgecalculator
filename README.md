@@ -14,6 +14,7 @@ TODO:
 - indexcss: container sizing
 - indexcss: style result page, check resultLVSL
 - add navbar like in my own website
+- eventually make the 2 elements side by side
 
 ###
 Doc:

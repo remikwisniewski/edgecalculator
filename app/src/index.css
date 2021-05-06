@@ -30,7 +30,7 @@ volatility stop loss long CSS
 .VSL h1{
   font-size: 40px;
   position: relative;
-  left: 18%;
+  left: 35%;
   color: rgb(25, 186, 10);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   margin-top: 100px;
@@ -98,18 +98,19 @@ label {
 }
 
 /* 
-container for aligning components side by side
+container for aligning components side by side (input + results)
 
 FIX:
-- sizing
-- 
+- sizing, it is currently away from the left, which when you make it a smaller browser it looks
+weird
 */
 
 .container{
   display:flex;
   flex-direction: row;
   position: absolute;
-  left: 20%;
+  text-align: center;
+  left: 35%;
 }
 
 /*
@@ -120,7 +121,7 @@ result form css
   position: relative;
   display: inline-block;
   max-width: 700px;
-  min-width: 200px;
+  min-width: 300px;
   height: 500px;
   box-sizing: border-box;
   padding: 30px 25px;
@@ -128,7 +129,7 @@ result form css
 
   border-radius: 40px;
   margin: 40px 0;
-  left: 30%;
+  left: 50%;
   transform: translate( -50% , 0 );
 }
 
