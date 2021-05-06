@@ -15,6 +15,12 @@ TODO:
 ###
 Doc:
 
+- index.js: runs App.js
 - App.js: main component source
 - index.css : css components
-- ... jsx files
+- Header.jsx : Title of page (-> App.js)
+- VolatilityLong.jsx : Main volatility stop loss long component (-> App.js)
+- ResultLVSL.jsx : results from userserinputVSL (-> VolatilityLong.jsx)
+- UserInputVSL.jsx : user input box for volatity (-> VolatilityLong.jsx)
+
+- Navbar.jsx : (not done)

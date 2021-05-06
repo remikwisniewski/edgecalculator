@@ -1,5 +1,6 @@
 import React from 'react';
 import UserInputVSL from './UserInputVSL.jsx';
+import ResultLVSL from './ResultLVSL.jsx';
 
 function VolatilityLong(){
     return (
@@ -12,6 +13,7 @@ function VolatilityLong(){
                 
             </div>
             <UserInputVSL/>
+            <ResultLVSL/>
         </div>
     )
 }
