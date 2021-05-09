@@ -1,6 +1,5 @@
 import React from 'react';
-import UserInputVSL from './UserInputVSL.jsx';
-import ResultLVSL from './ResultLVSL.jsx';
+import UserInputVSL from './VSLL.jsx';
 
 function VolatilityLong(){
     return (
@@ -11,11 +10,10 @@ function VolatilityLong(){
                 </h1>
             </div>
             
-            <div className = 'container'>
-                <UserInputVSL/>
-                <ResultLVSL/>
+            
+            <UserInputVSL/>
                 
-            </div>
+           
 
         </div>
     )

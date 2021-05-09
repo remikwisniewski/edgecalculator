@@ -22,7 +22,7 @@ BUGS/FIXES:
 - indexcss: style result page, check resultLVSL
 - add navbar like in my own website, create navbar.jsx
 - eventually make the 2 elements side by side
-- fix runtime / clean code
+- fix runtime / clean code, make performance better
 
 ###
 Doc:
