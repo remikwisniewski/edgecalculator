@@ -4,7 +4,7 @@ import ResultLVSL from './ResultLVSL.jsx';
 
 function VolatilityLong(){
     return (
-        <div>
+        <div id="page1">
             <div className = 'VSL'>
                 <h1>
                     Volatility Stop Loss Long

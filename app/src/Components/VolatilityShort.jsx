@@ -3,7 +3,7 @@ import UserInputVSL from 'react';
 
 function VolatilityShort(){
     return (
-        <div>
+        <div id="page2">
             <div className = 'VSLS'>
                 <h1>
                     Volatility Stop Loss Short
