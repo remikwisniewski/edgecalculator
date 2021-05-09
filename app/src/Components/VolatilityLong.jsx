@@ -14,6 +14,7 @@ function VolatilityLong(){
             <div className = 'container'>
                 <UserInputVSL/>
                 <ResultLVSL/>
+                
             </div>
 
         </div>

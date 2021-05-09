@@ -8,7 +8,9 @@ TODO:
 
 
 NOW:
+- votatilitylong.jsx functionality
 - volatilityshort.jsx
+- launch website
 
 BUGS/FIXES:
 - add underline / seperatation between QEdge and first component
@@ -20,6 +22,7 @@ BUGS/FIXES:
 - indexcss: style result page, check resultLVSL
 - add navbar like in my own website, create navbar.jsx
 - eventually make the 2 elements side by side
+- fix runtime / clean code
 
 ###
 Doc:

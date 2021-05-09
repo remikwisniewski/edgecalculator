@@ -9,6 +9,9 @@ function VolatilityShort(){
                     Volatility Stop Loss Short
                 </h1>
             </div>
+            <div>
+                test
+            </div>
 
         </div>
     )

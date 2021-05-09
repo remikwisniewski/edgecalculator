@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {Component} from 'react';
 import Header from './Components/Header.jsx';
 import VolatilityLong from './Components/VolatilityLong.jsx';
 import VolatilityShort from './Components/VolatilityShort.jsx';
 
-function App() {
-  return (
+class App extends Component {
+  render() { return (
     <div className="App">
       <Header/>
       <VolatilityLong/>
@@ -12,6 +12,7 @@ function App() {
 
     </div>
   );
+  }
 }
 
 export default App;
