@@ -1,6 +1,10 @@
 import React from 'react';
 import UserInputVSL from './VSLL.jsx';
 
+{/*
+    VolatilityLong Header File
+*/}
+
 class VolatilityLong extends React.Component{
     render(){
     return (
