@@ -1,5 +1,6 @@
 import React from 'react';
-import UserInputVSL from './VSLL.jsx';
+import UserInputVSL from './UserInputVSL.jsx';
+import ResultsVSL from './ResultsVSL';
 
 {/*
     VolatilityLong Header File
@@ -14,8 +15,10 @@ class VolatilityLong extends React.Component{
                     Volatility Stop Loss Long
                 </h1>
         </div>
-        
-        <UserInputVSL/>
+        <div className = "container">
+            <UserInputVSL/>
+            <ResultsVSL/>
+        </div>
                 
         </div>
     )

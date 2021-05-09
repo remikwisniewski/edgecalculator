@@ -30,7 +30,7 @@ volatility stop loss long CSS
 .VSL h1{
   font-size: 40px;
   position: relative;
-  left: 35%;
+  left: 30%;
   color: rgb(25, 186, 10);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   margin-top: 130px;
@@ -40,7 +40,7 @@ volatility stop loss long CSS
 .VSLS h1{
   font-size: 40px;
   position: relative;
-  left: 35%;
+  left: 30%;
   color: rgb(255, 0, 0);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   margin-top: 100px;
@@ -121,7 +121,7 @@ weird
   flex-direction: row;
   position: absolute;
   text-align: center;
-  left: 35%;
+  left: 30%;
 }
 
 /*
@@ -147,34 +147,6 @@ result form css
 .resultFormText{
   background:rgb(2, 88, 8);
   box-sizing: border-box;
-}
-
-
-
-/*------------------------------*/
-/*
-button in user input text
-
-FIX:
-- add hover + focus
-*/
-.buttonInputForm{
-  margin-top: 35px;
-  background-color: white;
-  border: 1px solid $red;
-  width: 200px;
-  line-height: 0;
-  font-size: 25px;
-  font-family: 'Roboto';
-  display: inline-block;
-  box-sizing: border-box;
-  padding: 20px 15px;
-  border-radius: 60px;
-  color: green;
-  font-weight: 100;
-  letter-spacing: 0.01em;
-  position: relative;
-  z-index: 1;
 }
 
 
