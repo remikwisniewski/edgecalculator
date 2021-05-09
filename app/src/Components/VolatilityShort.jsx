@@ -6,13 +6,8 @@ function VolatilityShort(){
         <div>
             <div className = 'VSLS'>
                 <h1>
-                    Volatility Stop Loss Long
+                    Volatility Stop Loss Short
                 </h1>
-            </div>
-            
-            <div className = 'container'>
-                <UserInputVSL/>
-                
             </div>
 
         </div>
@@ -20,3 +15,12 @@ function VolatilityShort(){
 }
 
 export default VolatilityShort;
+
+
+{/*
+
+    Figure how to to make a second page scrolling down
+    Figure out NavBAR
+    Figure out Volatilityshort.jsx
+*/
+}

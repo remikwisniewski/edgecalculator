@@ -37,6 +37,17 @@ volatility stop loss long CSS
   font-family: 'Playfair Display', serif;
 }
 
+.VSLS h1{
+  font-size: 40px;
+  position: relative;
+  left: 35%;
+  color: rgb(255, 0, 0);
+  text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+  margin-top: 100px;
+  font-family: 'Playfair Display', serif;
+
+}
+
 
 /*
 user input background

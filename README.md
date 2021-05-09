@@ -8,7 +8,6 @@ TODO:
 
 
 NOW:
-- navbar.jsx
 - volatilityshort.jsx
 
 BUGS/FIXES:
@@ -19,7 +18,7 @@ BUGS/FIXES:
 - indexcss: button input form
 - indexcss: container sizing
 - indexcss: style result page, check resultLVSL
-- add navbar like in my own website
+- add navbar like in my own website, create navbar.jsx
 - eventually make the 2 elements side by side
 
 ###
