@@ -110,20 +110,20 @@ class ResultsVSL extends React.Component{
             </div>
 
             <div>
-            <form class = "resultForm">
-                <div class = "resultFormText">
+            <form class = "resultFormVSLS">
+                <div class = "resultFormTextVSLS">
                     <p> StopLoss 1 ATR: {SL1ATR(this.state.highPrice, this.state.averageTR)} </p> 
                     <p> Number of Shares: {NumShares1(this.state.actualPrice, this.state.highPrice, this.state.averageTR, this.state.maxSL)} </p>
                     <p> Forex Lots: {Forexlots1(this.actualPrice, this.highPrice, this.averageTR, this.maxSL)}</p>
                 </div>
                <br/> 
-               <div class = "resultFormText">
+               <div class = "resultFormTextVSLS">
                     <p> StopLoss 2 ATR: {SL2ATR(this.state.highPrice, this.state.averageTR)}</p> 
                     <p> Number of Shares: {NumShares2(this.state.actualPrice, this.state.highPrice, this.state.averageTR, this.state.maxSL)} </p>
                     <p> Forex Lots: {Forexlots2(this.actualPrice, this.highPrice, this.averageTR, this.maxSL)}</p>
                </div> 
                <br/>
-               <div class = "resultFormText">
+               <div class = "resultFormTextVSLS">
                     <p> StopLoss 3 ATR: {SL3ATR(this.state.highPrice, this.state.averageTR)} </p> 
                     <p> Number of Shares: {NumShares3(this.state.actualPrice, this.state.highPrice, this.state.averageTR, this.state.maxSL)} </p>
                     <p> Forex Lots: {Forexlots3(this.actualPrice, this.highPrice, this.averageTR, this.maxSL)}</p>

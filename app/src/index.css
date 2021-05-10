@@ -145,7 +145,7 @@ weird
 result form css
 */
 
-.resultForm{
+.resultFormVSLL{
   position: relative;
   display: inline-block;
   max-width: 700px;
@@ -161,7 +161,7 @@ result form css
   transform: translate( -50% , 0 );
 }
 
-.resultFormText{
+.resultFormTextVSLL{
   background:rgb(255, 255, 255);
   border: 1px solid rgb(2, 88, 8);
   line-height: .5;
@@ -177,6 +177,37 @@ result form css
   box-sizing: border-box;
 }
 
+.resultFormVSLS{
+  position: relative;
+  display: inline-block;
+  max-width: 700px;
+  min-width: 300px;
+  height: 450px;
+  box-sizing: border-box;
+  padding: 30px 25px;
+  background: rgba(255, 70, 70, 0.5);
+
+  border-radius: 40px;
+  margin: 40px 0;
+  left: 50%;
+  transform: translate( -50% , 0 );
+}
+
+.resultFormTextVSLS{
+  background:rgb(255, 255, 255);
+  border: 1px solid rgb(2, 88, 8);
+  line-height: .5;
+  width: 250px;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
+  box-sizing: border-box;
+}
 
 /*------------------------------*/
 
