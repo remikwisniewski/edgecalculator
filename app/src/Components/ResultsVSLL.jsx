@@ -44,10 +44,6 @@ function NumShares2(actualPrice, lowPrice, averageTR, maxSL){
 }
 
 function Forexlots2(actualPrice, lowPrice, averageTR, maxSL){
-     var sl3 = lowPrice - averageTR * 2;
-     var num = actualPrice - sl3;
-     var num2 = maxSL / num;
-     return num2 / 100000;
 }
 
 /* 3 */

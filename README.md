@@ -8,6 +8,7 @@ NOW:
 
 BUGS/FIXES:
 - add underline / seperatation between QEdge and first component
+- add edge cases for inputs on volatility calculator
 - create manifest.json 
 - indexcss: @media scaling
 - indexcss: container sizing
