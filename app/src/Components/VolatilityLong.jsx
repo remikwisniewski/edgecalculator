@@ -1,5 +1,4 @@
 import React from 'react';
-import UserInputVSL from './UserInputVSL.jsx';
 import ResultsVSL from './ResultsVSL';
 
 {/*
@@ -16,7 +15,6 @@ class VolatilityLong extends React.Component{
                 </h1>
         </div>
         <div className = "container">
-            <UserInputVSL/>
             <ResultsVSL/>
         </div>
                 
