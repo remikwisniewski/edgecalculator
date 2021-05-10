@@ -26,33 +26,25 @@ function Forexlots(actualPrice, lowPrice, averageTR, maxSL){
     var num2 = maxSL / num;
     return num2 / 100000; 
 }
+     
 
-class UserInput extends React.Component{
+class ResultsVSL extends React.Component{
     /* gets user input */
-    
-    constructor(props){
-        super(props);
-        this.state = {
-            actualPrice: '',
-            lowPrice: '',
-            averageTR: '',
-            maxSL: '',
-        };
-    }
+
 
     render() {
         
     return (
-   
-        <div>
+        <div className = 'container'>
+            <div>
             <form className = "inputForm">
                 <div className = "textBox"> 
                     <input type="text" required/>    
-                    <label> Actual Price </label>
+                    <label> Actual Price: </label>
                 </div>
                 <div className = "textBox">
                     <input type="text" required/>
-                    <label> Low Price </label> 
+                    <label> Low Price: </label> 
                 </div>
                     <div className = "textBox">
                     <input type="text" required/>
@@ -63,24 +55,11 @@ class UserInput extends React.Component{
                     <label> Max Stop Loss ($) </label>
                 </div>        
             </form>
-        </div>
-    )
-    }
-}
-
-
-class ResultsVSL extends React.Component{
-    /* gets user input */
-
-    render() {
-        
-    return (
-        <div className = 'container'>
-            <UserInput/>
+            </div>
             <div>
             <form class = "resultForm">
                 <div class = "resultFormText">
-                    <p> StopLoss 1 ATR: </p> 
+                    <p> StopLoss 1 ATR: {}</p> 
                     <p> Number of Shares: </p>
                     <p> Forex Lots: </p>
                 </div>
@@ -91,15 +70,13 @@ class ResultsVSL extends React.Component{
                     <p> Forex Lots: </p>
                </div> 
                <br/>
-
                <div class = "resultFormText">
                     <p> StopLoss 3 ATR: </p>   
                     <p> Number of Shares: </p>  
                     <p> Forex Lots: </p>
-               </div>
-                
+               </div>   
             </form>
-        </div>
+            </div>
         </div>
         
     )
