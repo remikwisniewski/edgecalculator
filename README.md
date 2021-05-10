@@ -2,27 +2,20 @@
 stock market calculator
 
 
-TODO:
-1) make the visual of the page in react
-2) figure out the backend 
-
-
 NOW:
-- votatilitylong.jsx functionality
 - volatilityshort.jsx
 - launch website
 
 BUGS/FIXES:
 - add underline / seperatation between QEdge and first component
 - create manifest.json 
-- add reset function to input component (input type='reset')
 - indexcss: @media scaling
-- indexcss: button input form
 - indexcss: container sizing
 - indexcss: style result page, check resultLVSL
 - add navbar like in my own website, create navbar.jsx
 - eventually make the 2 elements side by side
 - fix runtime / clean code, make performance better
+- fix forexlots on volatility
 
 ###
 Doc:
