@@ -1,5 +1,5 @@
 import React from 'react';
-import ResultsVSL from './ResultsVSL';
+import ResultsVSLL from './ResultsVSLL';
 
 {/*
     VolatilityLong Header File
@@ -13,11 +13,10 @@ class VolatilityLong extends React.Component{
                 <h1>
                     Volatility Stop Loss Long
                 </h1>
-        </div>
-        <div className = "container">
-            <ResultsVSL/>
-        </div>
-                
+            </div>
+            <div>
+                <ResultsVSLL/>
+            </div>          
         </div>
     )
     }

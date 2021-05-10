@@ -1,16 +1,14 @@
 import React from 'react';
-import UserInputVSL from 'react';
+import ResultsVSLS from './ResultsVSLS';
 
 function VolatilityShort(){
     return (
         <div id="page2">
             <div className = 'VSLS'>
-                <h1>
-                    Volatility Stop Loss Short
-                </h1>
+                <h1> Volatility Stop Loss Short </h1>
             </div>
             <div>
-                test
+                <ResultsVSLS/>
             </div>
 
         </div>
