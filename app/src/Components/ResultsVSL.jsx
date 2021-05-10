@@ -18,7 +18,6 @@ function NumShares1(actualPrice, lowPrice, averageTR, maxSL){
     var num = actualPrice - sl1;
     var res = maxSL / num;
     return res.toFixed(0);
-
 }
 
 function Forexlots1(actualPrice, lowPrice, averageTR, maxSL){
@@ -26,7 +25,6 @@ function Forexlots1(actualPrice, lowPrice, averageTR, maxSL){
     var res = maxSL / num1;
     res = res / 100;
     return res;
-
 }
 
 /* 2 */
@@ -51,6 +49,7 @@ function Forexlots2(actualPrice, lowPrice, averageTR, maxSL){
      var num2 = maxSL / num;
      return num2 / 100000;
 }
+
 /* 3 */
 
 function SL3ATR(lowPrice, averageTR){
@@ -75,6 +74,7 @@ function Forexlots3(actualPrice, lowPrice, averageTR, maxSL){
 
 class ResultsVSL extends React.Component{
     /* gets user input */
+
     constructor(props){
         super(props);
         this.state = {
@@ -83,7 +83,6 @@ class ResultsVSL extends React.Component{
             averageTR: '',
             maxSL: ''
         }
-
         this.handleInputChange = this.handleInputChange.bind(this);
     }
 
@@ -96,10 +95,10 @@ class ResultsVSL extends React.Component{
         });
     }
 
-
     render() {
         
     return (
+
         <div className = 'container'>
             <div>
             <form className = "inputForm">
@@ -121,6 +120,7 @@ class ResultsVSL extends React.Component{
                 </div>        
             </form>
             </div>
+
             <div>
             <form class = "resultForm">
                 <div class = "resultFormText">
@@ -142,8 +142,7 @@ class ResultsVSL extends React.Component{
                </div>   
             </form>
             </div>
-        </div>
-        
+        </div>      
     )
     }
 }
