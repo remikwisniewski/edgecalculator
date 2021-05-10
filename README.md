@@ -34,5 +34,6 @@ Doc:
 - VolatilityLong.jsx : Main volatility stop loss long component (-> App.js)
 - ResultLVSL.jsx : results from userserinputVSL (-> VolatilityLong.jsx)
 - UserInputVSL.jsx : user input box for volatity (-> VolatilityLong.jsx)
+- VolatilityShort.jsx : Main volatility stop loss short component (-> App.js)
 
 - Navbar.jsx : (not done)
