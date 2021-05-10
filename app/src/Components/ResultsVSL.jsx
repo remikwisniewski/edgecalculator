@@ -1,10 +1,17 @@
 import React, {Component} from 'react';
+import UserInputVSL from './UserInputVSL';
 
 {/*
     Volatility Stop Loss Long Results - computation file (imported by Volatility Long)
 */}
 
-class UserInput extends React.Component{
+
+/*
+Functions Calculating values
+*/
+
+
+class ResultsVSL extends React.Component{
     /* gets user input */
     
     constructor(props){
@@ -15,13 +22,12 @@ class UserInput extends React.Component{
         }
     }
 
-
     render() {
     return (
         <div>
             <form class = "resultForm">
                 <div class = "resultFormText">
-                    <p> StopLoss 1 ATR: </p>
+                    <p> StopLoss 2 ATR: </p> 
                     <p> Number of Shares: </p>
                     <p> Forex Lots: </p>
                 </div>
@@ -46,4 +52,4 @@ class UserInput extends React.Component{
     }
 }
 
-export default UserInput;
+export default ResultsVSL;
