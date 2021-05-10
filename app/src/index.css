@@ -162,7 +162,18 @@ result form css
 }
 
 .resultFormText{
-  background:rgb(2, 88, 8);
+  background:rgb(255, 255, 255);
+  border: 1px solid rgb(2, 88, 8);
+  line-height: .5;
+  width: 250px;
+  display: block;
+  box-sizing: border-box;
+  padding: 10px 25px;
+  border-radius: 25px;
+  color: rgb(0, 0, 0);
+  font-weight: 100;
+  letter-spacing: 0.01em;
+  position: relative;
   box-sizing: border-box;
 }
 
