@@ -3,7 +3,8 @@ stock market calculator
 
 
 NOW:
-- volatilityshort.jsx
+- fix indexcss positioning
+- fix Nan error in display
 - launch website
 
 BUGS/FIXES:

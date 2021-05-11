@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 /* GOOGLE FONT URL */
 
+/*
+TODO: 
+- REMOVE ALL CSS THAT YOU WROTE WITH POSITIONING
+- MAKE VL LONG 10% FROM LEFT
+- MAKE VL SHORT 10% FROM RIGHT
+*/
 
 /* background img */
 html{
@@ -14,27 +20,17 @@ html{
   
 }
 
-/*
-different pages
-*/
-#page1{
-  position: absolute;
-  top: 0; left: 0; right: 0; bottom: 0;
-  z-index: 0;
-}
-#page2{
-  position: absolute;
-  left: 0; right: 0; bottom: 0;
-  background-image: url('./Images/background.png');
-  padding: 3px 8px;
-  color: rgb(0, 0, 0);
-  z-index: 1;
+/* side by side first page */
+
+.inline-block-child{
+  display: inline-block;
 }
 
 /* header text */
 .name h1{
   font-size: 50px;
   text-align: center;
+  position: relative;
   color: white;
   text-shadow: 7px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   font-family: 'Playfair Display', serif;
@@ -47,7 +43,7 @@ volatility stop loss long CSS
 .VSL h1{
   font-size: 40px;
   position: relative;
-  left: 30%;
+  left: 5%;
   color: rgb(25, 186, 10);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   margin-top: 130px;
@@ -57,7 +53,7 @@ volatility stop loss long CSS
 .VSLS h1{
   font-size: 40px;
   position: relative;
-  left: 30%;
+  left: 5%;
   color: rgb(255, 0, 0);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   margin-top: 100px;
@@ -157,7 +153,7 @@ result form css
 
   border-radius: 40px;
   margin: 40px 0;
-  left: 50%;
+  left: 0%;
   transform: translate( -50% , 0 );
 }
 
@@ -188,8 +184,7 @@ result form css
   background: rgba(255, 70, 70, 0.5);
 
   border-radius: 40px;
-  margin: 40px 0;
-  left: 50%;
+  left: 150%;
   transform: translate( -50% , 0 );
 }
 

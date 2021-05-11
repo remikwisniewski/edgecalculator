@@ -8,7 +8,7 @@ import ResultsVSLL from './ResultsVSLL';
 class VolatilityLong extends React.Component{
     render(){
     return (
-        <div id="page1">
+        <div>
             <div className = 'VSL'>
                 <h1>
                     Volatility Stop Loss Long

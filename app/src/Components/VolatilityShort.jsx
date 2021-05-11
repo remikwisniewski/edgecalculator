@@ -3,7 +3,7 @@ import ResultsVSLS from './ResultsVSLS';
 
 function VolatilityShort(){
     return (
-        <div id="page2">
+        <div>
             <div className = 'VSLS'>
                 <h1> Volatility Stop Loss Short </h1>
             </div>
