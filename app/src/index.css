@@ -43,20 +43,20 @@ volatility stop loss long CSS
 .VSL h1{
   font-size: 40px;
   position: relative;
-  left: 5%;
+  left: 40%;
   color: rgb(25, 186, 10);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-  margin-top: 130px;
+  margin-top: 8%;
   font-family: 'Playfair Display', serif;
 }
 
 .VSLS h1{
   font-size: 40px;
   position: relative;
-  left: 5%;
+  left: 80%;
   color: rgb(255, 0, 0);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
-  margin-top: 100px;
+  margin-top: 8%;
   font-family: 'Playfair Display', serif;
 
 }
@@ -65,7 +65,7 @@ volatility stop loss long CSS
 /*
 user input background
 */
-.inputForm{
+.inputFormVSLL{
   position: relative;
   display: inline-block;
   max-width: 700px;
@@ -75,9 +75,20 @@ user input background
   background: rgba(0, 96, 255, 0.5);
 
   border-radius: 40px;
-  margin: 40px 0;
-  left: 30%;
-  transform: translate( -50% , 0 );
+  left: -10%;
+}
+
+.inputFormVSLS{
+  position: relative;
+  display: inline-block;
+  max-width: 700px;
+  min-width: 200px;
+  box-sizing: border-box;
+  padding: 30px 25px;
+  background: rgba(0, 96, 255, 0.5);
+
+  border-radius: 40px;
+  left: 20%;
 }
 
 /*
@@ -129,12 +140,20 @@ FIX:
 weird
 */
 
-.container{
+.containerVSLL{
   display:flex;
   flex-direction: row;
   position: absolute;
   text-align: center;
-  left: 30%;
+  left: 10%;
+}
+
+.containerVSLS{
+  display:flex;
+  flex-direction: row;
+  position: absolute;
+  text-align: center;
+  left: 50%;
 }
 
 /*
@@ -152,9 +171,7 @@ result form css
   background: rgba(38, 255, 0, 0.5);
 
   border-radius: 40px;
-  margin: 40px 0;
-  left: 0%;
-  transform: translate( -50% , 0 );
+  left: 5%;
 }
 
 .resultFormTextVSLL{
@@ -184,8 +201,7 @@ result form css
   background: rgba(255, 70, 70, 0.5);
 
   border-radius: 40px;
-  left: 150%;
-  transform: translate( -50% , 0 );
+  left: 30%;
 }
 
 .resultFormTextVSLS{

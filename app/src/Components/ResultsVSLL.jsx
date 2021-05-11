@@ -95,9 +95,9 @@ class ResultsVSL extends React.Component{
         
     return (
 
-        <div className = 'container'>
+        <div className = 'containerVSLL'>
             <div>
-            <form className = "inputForm">
+            <form className = "inputFormVSLL">
                 <div className = "textBox"> 
                     <input type="text" name="actualPrice" value={this.state.actualPrice} onChange={this.handleInputChange} required/>    
                     <label> Actual Price: </label>
