@@ -20,11 +20,16 @@ function NumShares1(actualPrice, lowPrice, averageTR, maxSL){
     return res.toFixed(0);
 }
 
-function Forexlots1(actualPrice, lowPrice, averageTR, maxSL){
-    var num1 = lowPrice - averageTR;
-    var res = maxSL / num1;
-    res = res / 100;
-    return res;
+function ForexLots1(actualPrice, lowPrice, averageTR, maxSL){
+    var sl1 = lowPrice - averageTR;
+    var num = actualPrice - sl1;
+    var res = maxSL / num;
+    res = res.toFixed(0)
+
+    if (res < 100){
+        return 0;
+    }
+    return res / 100;
 }
 
 /* 2 */
@@ -44,6 +49,15 @@ function NumShares2(actualPrice, lowPrice, averageTR, maxSL){
 }
 
 function Forexlots2(actualPrice, lowPrice, averageTR, maxSL){
+    var sl1 = lowPrice - averageTR * 2;
+    var num = actualPrice - sl1;
+    var res = maxSL / num;
+    res = res.toFixed(0);
+
+    if (res < 100){
+        return 0;
+    }
+    return res / 100;
 }
 
 /* 3 */
@@ -62,10 +76,15 @@ function NumShares3(actualPrice, lowPrice, averageTR, maxSL){
 }
 
 function Forexlots3(actualPrice, lowPrice, averageTR, maxSL){
-    var sl1 = lowPrice - averageTR;
+    var sl1 = lowPrice - averageTR * 3;
     var num = actualPrice - sl1;
-    var num2 = maxSL / num;
-    return num2 / 100000; 
+    var res = maxSL / num;
+    res = res.toFixed(0)
+
+    if (res < 100){
+        return 0;
+    }
+    return res / 100; 
 }
 
 class ResultsVSL extends React.Component{
@@ -122,19 +141,19 @@ class ResultsVSL extends React.Component{
                 <div class = "resultFormTextVSLL">
                     <p> StopLoss 1 ATR: {SL1ATR(this.state.lowPrice, this.state.averageTR)} </p> 
                     <p> Number of Shares: {NumShares1(this.state.actualPrice, this.state.lowPrice, this.state.averageTR, this.state.maxSL)} </p>
-                    <p> Forex Lots: {Forexlots1(this.actualPrice, this.lowPrice, this.averageTR, this.maxSL)}</p>
+                    <p> Forex Lots: {ForexLots1(this.state.actualPrice, this.state.lowPrice, this.state.averageTR, this.state.maxSL)}</p>
                 </div>
                <br/> 
                <div class = "resultFormTextVSLL">
                     <p> StopLoss 2 ATR: {SL2ATR(this.state.lowPrice, this.state.averageTR)}</p> 
                     <p> Number of Shares: {NumShares2(this.state.actualPrice, this.state.lowPrice, this.state.averageTR, this.state.maxSL)} </p>
-                    <p> Forex Lots: {Forexlots2(this.actualPrice, this.lowPrice, this.averageTR, this.maxSL)}</p>
+                    <p> Forex Lots: {Forexlots2(this.state.actualPrice, this.state.lowPrice, this.state.averageTR, this.state.maxSL)}</p>
                </div> 
                <br/>
                <div class = "resultFormTextVSLL">
                     <p> StopLoss 3 ATR: {SL3ATR(this.state.lowPrice, this.state.averageTR)} </p> 
                     <p> Number of Shares: {NumShares3(this.state.actualPrice, this.state.lowPrice, this.state.averageTR, this.state.maxSL)} </p>
-                    <p> Forex Lots: {Forexlots3(this.actualPrice, this.lowPrice, this.averageTR, this.maxSL)}</p>
+                    <p> Forex Lots: {Forexlots3(this.state.actualPrice, this.state.lowPrice, this.state.averageTR, this.state.maxSL)}</p>
                </div>   
             </form>
             </div>

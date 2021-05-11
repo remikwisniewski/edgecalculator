@@ -12,9 +12,8 @@ BUGS/FIXES:
 - create manifest.json 
 - indexcss: @media scaling
 - create navbar.jsx: look up reactjs navbar
-- eventually make the 2 elements side by side
-- fix runtime / clean code, make performance better
 - fix forexlots on volatility
+- clean code after
 
 ###
 Doc:
