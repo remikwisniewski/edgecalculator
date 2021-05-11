@@ -43,7 +43,7 @@ volatility stop loss long CSS
 .VSL h1{
   font-size: 40px;
   position: relative;
-  left: 40%;
+  left: 45%;
   color: rgb(25, 186, 10);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   margin-top: 8%;
@@ -53,7 +53,8 @@ volatility stop loss long CSS
 .VSLS h1{
   font-size: 40px;
   position: relative;
-  left: 80%;
+  left: 75%;
+  width: 100%;
   color: rgb(255, 0, 0);
   text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
   margin-top: 8%;
@@ -225,6 +226,10 @@ result form css
 
 
 /* TODO: webpage sizing */
-@media(max-width:1190px){
-	
+@media(min-width:1700px){
+
+  .VSLS h1{
+    left: 550px;
+  }
+
 }

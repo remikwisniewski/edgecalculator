@@ -3,7 +3,6 @@ stock market calculator
 
 
 NOW:
-- fix indexcss positioning
 - fix Nan error in display
 - launch website
 
@@ -12,9 +11,7 @@ BUGS/FIXES:
 - add edge cases for inputs on volatility calculator
 - create manifest.json 
 - indexcss: @media scaling
-- indexcss: container sizing
-- indexcss: style result page, check resultLVSL
-- add navbar like in my own website, create navbar.jsx
+- create navbar.jsx: look up reactjs navbar
 - eventually make the 2 elements side by side
 - fix runtime / clean code, make performance better
 - fix forexlots on volatility
