@@ -3,16 +3,13 @@ stock market calculator
 
 
 NOW:
-- fix Nan error in display
-- launch website
+- update style
+- update @media scaling 
 
 BUGS/FIXES:
-- add underline / seperatation between QEdge and first component
 - add edge cases for inputs on volatility calculator
 - create manifest.json 
-- indexcss: @media scaling
 - create navbar.jsx: look up reactjs navbar
-- fix forexlots on volatility
 - clean code after
 
 ###
