@@ -5,11 +5,11 @@ stock market calculator
 NOW:
 - update style
 - update @media scaling 
+- make 2nd page with scroll feature
 
 BUGS/FIXES:
 - add edge cases for inputs on volatility calculator
 - create manifest.json 
-- create navbar.jsx: look up reactjs navbar
 - clean code after
 
 ###
