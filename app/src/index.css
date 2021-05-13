@@ -75,7 +75,6 @@ user input background
   padding: 30px 25px;
   background: rgba(0, 96, 255, 0.5);
 
-  border-radius: 40px;
   left: -10%;
 }
 
@@ -87,8 +86,6 @@ user input background
   box-sizing: border-box;
   padding: 30px 25px;
   background: rgba(0, 96, 255, 0.5);
-
-  border-radius: 40px;
   left: 20%;
 }
 
@@ -170,8 +167,6 @@ result form css
   box-sizing: border-box;
   padding: 30px 25px;
   background: rgba(38, 255, 0, 0.5);
-
-  border-radius: 40px;
   left: 5%;
 }
 
@@ -201,7 +196,6 @@ result form css
   padding: 30px 25px;
   background: rgba(255, 70, 70, 0.5);
 
-  border-radius: 40px;
   left: 30%;
 }
 
