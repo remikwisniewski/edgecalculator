@@ -31,7 +31,3 @@ Doc:
 CHANGES TO MAKE:
 
 - keep the design simple, like tradingeconomics.com
-- grey up top with the qedge risk manager logo top left just like that
-- background for the page can be white
-- boxes would look nicer with square edges vs round
-- flat lettering vs shadow
