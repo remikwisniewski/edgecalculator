@@ -10,9 +10,7 @@ class VolatilityLong extends React.Component{
     return (
         <div>
             <div className = 'VSL'>
-                <h1>
-                    Volatility Stop Loss Long
-                </h1>
+                <h1> Volatility Stop Loss Long </h1>
             </div>
             <div>
                 <ResultsVSLL/>

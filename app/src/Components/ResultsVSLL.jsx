@@ -119,11 +119,11 @@ class ResultsVSL extends React.Component{
             <form className = "inputFormVSLL">
                 <div className = "textBox"> 
                     <input type="text" name="actualPrice" value={this.state.actualPrice} onChange={this.handleInputChange} required/>    
-                    <label> Actual Price: </label>
+                    <label> Actual Price </label>
                 </div>
                 <div className = "textBox">
                     <input type="text" name="lowPrice" value={this.state.lowPrice} onChange={this.handleInputChange} required/>
-                    <label> Low Price: </label> 
+                    <label> Low Price </label> 
                 </div>
                     <div className = "textBox">
                     <input type="text" name="averageTR" value={this.state.averageTR} onChange={this.handleInputChange} required/>
